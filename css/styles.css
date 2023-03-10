@@ -21,3 +21,26 @@ a {
   padding: 16px;
   gap: 16px;
 }
+
+.content-title {
+  display: flex;
+  align-items: center;
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+.content-title h3 {
+  color: #f9faf8;
+  font-weight: extra-bold;
+  font-size: 48px;
+}
+
+.content-title p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.content-title-left,
+.content-title-right {
+  width: 300px;
+}
