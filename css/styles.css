@@ -27,20 +27,30 @@ a {
   align-items: center;
   background-color: #1f2937;
   justify-content: center;
+  gap: 16px;
+  height: 400px;
 }
 
 .content-title h3 {
   color: #f9faf8;
   font-weight: extra-bold;
   font-size: 48px;
+  margin-bottom: 0;
 }
 
 .content-title p {
   color: #e5e7eb;
   font-size: 18px;
+  margin: 0;
 }
 
 .content-title-left,
 .content-title-right {
   width: 300px;
+}
+
+.content-title-right img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
