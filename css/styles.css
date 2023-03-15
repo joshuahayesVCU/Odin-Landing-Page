@@ -3,11 +3,22 @@ a {
   text-decoration: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: boarder-box;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #1f2937;
+  height: 100%;
+  margin: 0px;
 }
 
 .header-logo {
@@ -27,8 +38,9 @@ a {
   align-items: center;
   background-color: #1f2937;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
   height: 400px;
+  margin: 0px;
 }
 
 .content-title h3 {
@@ -44,13 +56,33 @@ a {
   margin: 0;
 }
 
+.content-title button {
+  margin-top: 8px;
+  border: none; /* Overwrites default styling */
+  cursor: pointer; /* Overwrites default styling */
+  outline: none; /* Overwrites default styling */
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 16px;
+  padding: 8px;
+}
+
 .content-title-left,
 .content-title-right {
-  width: 300px;
+  width: 500px;
 }
 
 .content-title-right img {
   width: 100%;
-  max-height: 200px;
+  max-height: 250px;
   object-fit: cover;
+  border-radius: 10px;
+}
+
+.content-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
