@@ -98,7 +98,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
   margin-top: 50px;
   gap: 26px;
 }
